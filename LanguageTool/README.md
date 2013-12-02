@@ -19,7 +19,7 @@ __OPTIONS:__
 
 __COMMANDS:__
 
-   [server | gui | cmd] [LanguageTool Options]
+    [server | gui | cmd] [LanguageTool Options]
     
          Parse [LanguageTool Options] to either the server, the standalone
          or the comamndline java executable of LanguageTool. If you do not
@@ -27,18 +27,18 @@ __COMMANDS:__
          [LanguageTool Options] part to see the usage text of the
          individual executables.
 		
-   install [version]
+    install [version]
     
          Install LanguageTool to /opt, add script to
          /usr/local/bin and make shortcuts. If you do not specify a special
          version (e.g 1.8, 1.9, 2.1, 2.2, 2.3, ...) the last stable
          version is used.
     		
-   uninstall
+    uninstall
     
          Uninstall all files mentioned in the install command exept this
          script. Delete the script in /usr/local/bin yourself if you want.
 
-   upgrade [version]
+    upgrade [version]
     
          An uninstall with a folloing install.
