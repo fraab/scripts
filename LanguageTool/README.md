@@ -1,6 +1,8 @@
 LanguageTool
 ============
 
+LanguageTool Homepage: <http://languagetool.org/>
+
 A script that download automatically the zip version of LanguageTool. It adds shortcuts to the desktop and provides alias for the long original commands.
 
 Usage
