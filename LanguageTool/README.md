@@ -13,32 +13,34 @@ Usage
     langtool install [version]
     langtool uninstall
 
-__OPTIONS:__
+#### OPTIONS:
 
-        -h | --help		Print this help and exit
+	-h | --help		Print this help and exit
 
-__COMMANDS:__
+#### COMMANDS:
 
-    [server | gui | cmd] [LanguageTool Options]
-    
-         Parse [LanguageTool Options] to either the server, the standalone
-         or the comamndline java executable of LanguageTool. If you do not
-         specify one, the cmd command is used. Use --help in the
-         [LanguageTool Options] part to see the usage text of the
-         individual executables.
+**[server | gui | cmd] [LanguageTool Options]**
+
+    Parse [LanguageTool Options] to either the server, the standalone (gui)
+	or the comamndline java executable of LanguageTool. If you do not
+	specify one, the cmd command is used. Use --help in the
+	[LanguageTool Options] part to see the usage text of the
+	individual executables.
+
+**install [version]**
+
+	Install LanguageTool to $installPathPrefix, add script
+	to $BIN_PATH and make shortcuts. If you do not specify a special
+	version (e.g 1.8, 1.9, 2.1, 2.2, 2.3, ...) the last stable version 
+	is used.
 		
-    install [version]
-    
-         Install LanguageTool to /opt, add script to
-         /usr/local/bin and make shortcuts. If you do not specify a special
-         version (e.g 1.8, 1.9, 2.1, 2.2, 2.3, ...) the last stable
-         version is used.
-    		
-    uninstall
-    
-         Uninstall all files mentioned in the install command exept this
-         script. Delete the script in /usr/local/bin yourself if you want.
+**uninstall**
 
-    upgrade [version]
-    
-         An uninstall with a folloing install.
+	Uninstall all files mentioned in the install command exept this
+	script. Delete the script in $BIN_PATH yourself if you want.
+
+**upgrade [version]**
+
+	An uninstall with a following install. If you do not specify a special
+	version (e.g 1.8, 1.9, 2.1, 2.2, 2.3, ...) the last stable
+	version is used.
